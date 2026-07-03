@@ -17,7 +17,6 @@ $occasion     = get_post_meta( $pid, '_bloom_occasion', true );
 $short        = get_post_meta( $pid, '_bloom_short_desc', true );
 $price        = bloom_get_price( $pid );
 $tabby        = (int) ceil( $price / 4 );
-$stock_sizes  = bloom_get_stock_sizes( $pid );
 $wa_inquire   = bloom_whatsapp_link( $pid, 'inquire' );
 $wa_bag       = bloom_whatsapp_link( $pid, 'bag' );
 $wa_stylist   = bloom_whatsapp_link( $pid, 'stylist' );
@@ -147,23 +146,6 @@ $related = new WP_Query( array(
       <div class="sp-price-block">
         <div class="sp-price"><?php echo esc_html( bloom_format_price( $price ) ); ?></div>
         <div class="sp-tabby">or 4 payments of <?php echo esc_html( bloom_format_price( $tabby ) ); ?> with <span class="sp-tabby-brand">tabby</span></div>
-      </div>
-
-      <!-- 5. SIZE SELECTOR -->
-      <div class="sp-sizes-block">
-        <div class="sp-sizes-label">Size</div>
-        <div class="sp-sizes" role="radiogroup" aria-label="Select a size">
-          <?php foreach ( $stock_sizes as $sz => $in_stock ) : ?>
-            <button type="button"
-                    class="sp-size <?php echo $in_stock ? '' : 'sp-size-out'; ?>"
-                    role="radio"
-                    aria-checked="false"
-                    data-size="<?php echo esc_attr( $sz ); ?>"
-                    <?php echo $in_stock ? '' : 'aria-disabled="true"'; ?>>
-              <?php echo esc_html( $sz ); ?>
-            </button>
-          <?php endforeach; ?>
-        </div>
       </div>
 
       <!-- 6. DELIVERY CUE -->
@@ -315,16 +297,6 @@ $related = new WP_Query( array(
 
 <script>
 (function(){
-  /* Size pill selection — visual highlight only (no add-to-cart since CTAs open WhatsApp) */
-  var sizes = document.querySelectorAll('.sp-size:not(.sp-size-out)');
-  sizes.forEach(function(btn){
-    btn.addEventListener('click', function(){
-      sizes.forEach(function(b){ b.classList.remove('is-selected'); b.setAttribute('aria-checked','false'); });
-      btn.classList.add('is-selected');
-      btn.setAttribute('aria-checked','true');
-    });
-  });
-
   /* Wishlist heart — localStorage toggle, scoped by product ID */
   var wish = document.querySelector('[data-sp-wishlist]');
   if (wish) {
