@@ -184,7 +184,6 @@ $related = new WP_Query( array(
         <div class="sp-tabs-nav" role="tablist" aria-label="Product information">
           <button type="button" class="sp-tab is-active" role="tab" aria-selected="true"  data-sp-tab="shipping">Shipping</button>
           <button type="button" class="sp-tab"           role="tab" aria-selected="false" data-sp-tab="delivery">Delivery</button>
-          <button type="button" class="sp-tab"           role="tab" aria-selected="false" data-sp-tab="size">Size</button>
           <button type="button" class="sp-tab"           role="tab" aria-selected="false" data-sp-tab="details">Details</button>
         </div>
 
@@ -221,26 +220,6 @@ $related = new WP_Query( array(
             </table>
           </div>
           <p class="sp-tab-foot">Showroom collection at Kingdom Mall is available at no charge — kindly notify us via WhatsApp at the time of order.</p>
-        </div>
-
-        <!-- SIZE CHART -->
-        <div class="sp-tab-panel" role="tabpanel" data-sp-panel="size" hidden>
-          <p class="sp-tab-lede">Standard ready-to-wear measurements. For couture and made-to-measure, your stylist will take a full atelier fitting.</p>
-          <div class="sp-tc-table-wrap">
-            <table class="sp-tc-table sp-size-table">
-              <thead>
-                <tr><th>Size</th><th>Bust (cm)</th><th>Waist (cm)</th><th>Hips (cm)</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>XS</td><td>80</td><td>62</td><td>86</td></tr>
-                <tr><td>S</td> <td>84</td><td>66</td><td>90</td></tr>
-                <tr><td>M</td> <td>88</td><td>70</td><td>94</td></tr>
-                <tr><td>L</td> <td>94</td><td>76</td><td>100</td></tr>
-                <tr><td>XL</td><td>100</td><td>82</td><td>106</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="sp-tab-foot">Between sizes? We recommend sizing up for couture silhouettes — our atelier will tailor to a perfect fit, complimentary with every purchase.</p>
         </div>
 
         <!-- DETAILS -->

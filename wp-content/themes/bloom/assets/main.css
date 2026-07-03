@@ -1996,16 +1996,6 @@ body{-webkit-overflow-scrolling:touch;}
 .sp-tabby{margin-top:8px;font-family:'Josefin Sans',sans-serif;font-weight:400;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--txt-gray);}
 .sp-tabby-brand{display:inline-block;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600;text-transform:none;letter-spacing:0;color:var(--gold);font-size:14px;margin-left:2px;}
 
-/* 5. SIZE SELECTOR */
-.sp-sizes-block{margin:0 0 26px;}
-.sp-sizes-label{font-family:'Josefin Sans',sans-serif;font-weight:500;font-size:11px;letter-spacing:2.6px;text-transform:uppercase;color:var(--txt-gray);margin-bottom:10px;}
-.sp-sizes{display:flex;flex-wrap:wrap;gap:8px;}
-.sp-size{min-width:48px;padding:11px 16px;font-family:'Josefin Sans',sans-serif;font-weight:500;font-size:12px;letter-spacing:1.8px;text-transform:uppercase;color:var(--noir);background:var(--white);border:.5px solid rgba(26,20,16,.22);cursor:pointer;transition:all .25s;}
-.sp-size:hover:not(.sp-size-out){border-color:var(--noir);}
-.sp-size.is-selected{background:var(--noir);color:var(--ivory);border-color:var(--noir);}
-.sp-size-out{position:relative;color:var(--mid-gray);border-color:rgba(26,20,16,.10);cursor:not-allowed;background:transparent;}
-.sp-size-out::before{content:'';position:absolute;left:6px;right:6px;top:50%;height:.5px;background:var(--mid-gray);transform:translateY(-50%) rotate(-12deg);pointer-events:none;}
-
 /* 6. DELIVERY CUE */
 .sp-delivery{margin:0 0 22px;font-family:'Josefin Sans',sans-serif;font-weight:400;font-size:11px;letter-spacing:2.2px;text-transform:uppercase;color:var(--gold);}
 
@@ -2055,7 +2045,6 @@ body{-webkit-overflow-scrolling:touch;}
 .sp-tc-table tbody tr:last-child td{border-bottom:none;}
 .sp-tc-table th{font-family:'Josefin Sans',sans-serif;font-weight:500;font-size:10px;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold);background:rgba(176,138,75,.05);}
 .sp-tc-table td:first-child{font-weight:500;color:var(--noir);}
-.sp-size-table td:first-child{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:16px;letter-spacing:.5px;}
 .sp-tc-dl{margin:0;padding:0;}
 .sp-tc-row{display:grid;grid-template-columns:140px 1fr;gap:24px;padding:12px 0;border-bottom:.5px solid var(--gold-pale);}
 .sp-tc-row:last-child{border-bottom:none;}
