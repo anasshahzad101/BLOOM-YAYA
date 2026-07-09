@@ -385,23 +385,7 @@ function smoothLoop(){
 // (Heavy smoothing can fight native â€” better UX to keep momentum native.)
 
 /* â•â•â•â•â•â•â•â•â•â•â• NAV LOGO SCRAMBLE â•â•â•â•â•â•â•â•â•â•â• */
-const logo=document.querySelector('.n-logo');
-if(logo){
-  const original=logo.textContent;
-  const glyphs='AEIOUNRSBLM';
-  logo.addEventListener('mouseenter',()=>{
-    let i=0;
-    const iv=setInterval(()=>{
-      logo.textContent=original.split('').map((c,idx)=>{
-        if(c===' ')return ' ';
-        if(idx<i)return original[idx];
-        return glyphs[Math.floor(Math.random()*glyphs.length)];
-      }).join('');
-      i++;
-      if(i>original.length){clearInterval(iv);logo.textContent=original;}
-    },50);
-  });
-}
+/* Logo scramble effect removed - the logo now stays "BLOOM" on hover. */
 
 /* â•â•â•â•â•â•â•â•â•â•â• HERO STAGGERED TITLE â€” already done via CSS â•â•â•â•â•â•â•â•â•â•â• */
 
