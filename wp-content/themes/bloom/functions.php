@@ -53,7 +53,7 @@ function bloom_enqueue_assets() {
 		'bloom-main',
 		get_template_directory_uri() . '/assets/main.css',
 		array( 'bloom-fonts' ),
-		'20260703160000'
+		'20260709120000'
 	);
 
 	// Theme stylesheet (required by WP)
@@ -61,7 +61,7 @@ function bloom_enqueue_assets() {
 		'bloom-style',
 		get_stylesheet_uri(),
 		array( 'bloom-main' ),
-		'20260703160000'
+		'20260709120000'
 	);
 
 	// Editorial motion script — only on the front page (other pages ship their own inline JS)
@@ -70,7 +70,7 @@ function bloom_enqueue_assets() {
 			'bloom-main-js',
 			get_template_directory_uri() . '/assets/main.js',
 			array(),
-			'20260703160000',
+			'20260709120000',
 			true // load in footer
 		);
 	}
@@ -80,7 +80,7 @@ function bloom_enqueue_assets() {
 		'bloom-nav-smart',
 		get_template_directory_uri() . '/assets/nav-smart.js',
 		array(),
-		'20260703160000',
+		'20260709120000',
 		true
 	);
 
@@ -89,7 +89,7 @@ function bloom_enqueue_assets() {
 		'bloom-mobile-ux',
 		get_template_directory_uri() . '/assets/mobile-ux.js',
 		array(),
-		'20260703160000',
+		'20260709120000',
 		true
 	);
 
@@ -107,7 +107,7 @@ function bloom_enqueue_assets() {
 			'bloom-wp-pages',
 			get_template_directory_uri() . '/assets/wp-pages.js',
 			array(),
-			'20260703160000',
+			'20260709120000',
 			true
 		);
 	}
