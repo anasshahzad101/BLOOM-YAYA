@@ -299,7 +299,7 @@ get_header();
       <div class="ft-addr">
         <strong>Kingdom Mall, Floor 2</strong>
         King Fahd Road, Al Olaya<br>Riyadh, Saudi Arabia<br>
-        <br>+966 (11) 211 1026<br>info@bloom-fashions.com
+        <br>+966 (11) 211 1026<br>bloom1.ksa@gmail.com
       </div>
     </div>
     <div>
@@ -330,7 +330,7 @@ get_header();
     </div>
   </div>
   <div class="ft-bot">
-    <span>© 2026 BLOOM Fashion Boutique · CR: XXXXXXXXXX · VAT: XXXXXXXXXXXXXXX</span>
+    <span>© 2026 BLOOM Fashion Boutique · CR: 1010245766 · VAT: 301337273200003</span>
     <div class="ft-social">
       <a href="#">Instagram</a>
       <a href="#">Snapchat</a>

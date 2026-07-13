@@ -29,7 +29,7 @@ add_action( 'after_setup_theme', 'bloom_theme_setup' );
  * to force another purge on a future change.
  */
 function bloom_purge_cache_once() {
-	$flag = 'bloom_cache_purged_2026_07c';
+	$flag = 'bloom_cache_purged_2026_07d';
 	if ( get_option( $flag ) ) {
 		return;
 	}
