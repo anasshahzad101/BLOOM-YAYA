@@ -25,7 +25,6 @@ function renderProducts(filter='all'){
           <a href="https://wa.me/966112111026?text=${encodeURIComponent('Hello, I would like to inquire about the '+p.name+' by '+p.designer)}" target="_blank" class="p-hover-btn p-inquire">Inquire via WhatsApp</a>
         </div>
       </div>
-      <div class="p-designer">${p.designer}</div>
       <div class="p-name">${p.name}</div>
       <div class="p-meta"><span class="p-price">SAR ${p.price.toLocaleString()}</span><span class="p-occ">${p.occasion}</span></div>
     </div>
