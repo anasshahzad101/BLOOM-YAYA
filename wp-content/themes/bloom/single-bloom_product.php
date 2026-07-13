@@ -7,8 +7,6 @@ get_header();
 the_post();
 
 $pid          = get_the_ID();
-$designer     = get_post_meta( $pid, '_bloom_designer', true );
-$designer_url = get_post_meta( $pid, '_bloom_designer_url', true );
 $sku          = get_post_meta( $pid, '_bloom_sku', true );
 $color        = get_post_meta( $pid, '_bloom_color', true );
 $fabric       = get_post_meta( $pid, '_bloom_fabric', true );
@@ -126,15 +124,6 @@ $related = new WP_Query( array(
 
     <div class="sp-info">
 
-      <!-- 2. BRAND NAME -->
-      <?php if ( $designer ) : ?>
-        <?php if ( $designer_url ) : ?>
-          <a href="<?php echo esc_url( $designer_url ); ?>" class="sp-brand sp-brand-link"><?php echo esc_html( $designer ); ?></a>
-        <?php else : ?>
-          <span class="sp-brand"><?php echo esc_html( $designer ); ?></span>
-        <?php endif; ?>
-      <?php endif; ?>
-
       <!-- 3. DRESS NAME -->
       <h1 class="sp-title"><?php the_title(); ?></h1>
 
@@ -172,7 +161,6 @@ $related = new WP_Query( array(
       <!-- T&Cs TAB BLOCK — Shipping / Delivery / Size / Details -->
       <?php
       $detail_rows = array_filter( array(
-        'Designer'     => $designer,
         'SKU'          => $sku,
         'Color'        => $color,
         'Occasion'     => $occasion,
