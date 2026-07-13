@@ -352,7 +352,7 @@ get_header();
     </div>
   </div>
   <div class="ft-bot">
-    <span>© 2026 BLOOM Fashion Boutique · CR: XXXXXXXXXX · VAT: XXXXXXXXXXXXXXX</span>
+    <span>© 2026 BLOOM Fashion Boutique · CR: 1010245766 · VAT: 301337273200003</span>
     <div class="ft-social">
       <a href="#">Instagram</a>
       <a href="#">Snapchat</a>

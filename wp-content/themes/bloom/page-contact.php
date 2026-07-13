@@ -207,14 +207,14 @@ get_header();
       <div class="ft-logo">B L O O M</div>
       <div class="ft-logo-rule"></div>
       <p class="ft-tagline">Where elegance blooms — since 2010.</p>
-      <address class="ft-addr"><strong>Kingdom Mall, Floor 2</strong>King Fahd Road, Al Olaya<br>Riyadh, Saudi Arabia<br><br>+966 (11) 211 1026<br>info@bloom-fashions.com</address>
+      <address class="ft-addr"><strong>Kingdom Mall, Floor 2</strong>King Fahd Road, Al Olaya<br>Riyadh, Saudi Arabia<br><br>+966 (11) 211 1026<br>bloom1.ksa@gmail.com</address>
     </div>
     <div><div class="ft-col-title">Collection</div><a href="<?php echo esc_url( home_url("/shop/") ); ?>" class="ft-link">Shop — All Pieces</a>
       <a href="<?php echo esc_url( home_url("/collection/") ); ?>#evening" class="ft-link">Evening Dresses</a><a href="<?php echo esc_url( home_url("/collection/") ); ?>#dresses" class="ft-link">Dresses</a><a href="<?php echo esc_url( home_url("/collection/") ); ?>#new" class="ft-link">New Arrivals</a><a href="<?php echo esc_url( home_url("/collection/") ); ?>#blouses" class="ft-link">Blouses</a><a href="<?php echo esc_url( home_url("/collection/") ); ?>#accessories" class="ft-link">Accessories</a></div>
     <div><div class="ft-col-title">House</div><a href="<?php echo esc_url( home_url("/about/") ); ?>" class="ft-link">Our Heritage</a><a href="<?php echo esc_url( home_url("/lookbook/") ); ?>" class="ft-link">Lookbook SS26</a><a href="<?php echo esc_url( home_url("/blog/") ); ?>" class="ft-link">Blog</a><a href="<?php echo esc_url( home_url("/contact/") ); ?>" class="ft-link">Contact</a></div>
     <div><div class="ft-col-title">Connect</div><a href="#" class="ft-link">WhatsApp</a><a href="#" class="ft-link">Instagram</a><a href="#" class="ft-link">Snapchat</a><a href="#" class="ft-link">TikTok</a></div>
   </div>
-  <div class="ft-bot"><span>© 2026 BLOOM Fashion Boutique · CR: XXXXXXXXXX · VAT: XXXXXXXXXXXXXXX</span><div class="ft-social"><a href="#">Instagram</a><a href="#">Snapchat</a><a href="#">TikTok</a></div><span>bloom-fashions.com</span></div>
+  <div class="ft-bot"><span>© 2026 BLOOM Fashion Boutique · CR: 1010245766 · VAT: 301337273200003</span><div class="ft-social"><a href="#">Instagram</a><a href="#">Snapchat</a><a href="#">TikTok</a></div><span>bloom-fashions.com</span></div>
 </footer>
 <?php $GLOBALS["bloom_footer_rendered"] = true; ?>
 
